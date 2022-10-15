@@ -1,0 +1,34 @@
+﻿body{
+    position: relative;
+   
+}
+#form1{
+     position: absolute;
+     top: 50%;
+     left: 40%;
+     text-align:center;
+}
+.formdata{
+    background-color:aliceblue;
+    height:200px;
+    width:250px;
+    margin:10px;
+}
+.ddback{
+    margin:10px;
+
+}
+.dditem1{
+    margin-top:100px;
+    padding-top:40px;
+}
+.ddl{
+    height:30px;
+}
+.heading{
+    font:bold;
+    font-size:50px;
+    font-family:'Bell MT';
+    color:blue;
+    margin-left:-70px;
+}

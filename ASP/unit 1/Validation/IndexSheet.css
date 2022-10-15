@@ -1,0 +1,42 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+    background-color:bisque;
+}
+.formbody{
+    position:absolute;
+    border:2px solid aqua ;
+    border-radius:20px;
+    top: 20%;
+    left:30%;
+    padding:10px;
+    background-color:aqua; 
+    align-items:center;
+}
+.heading{
+    font-size:30px;
+     color:blue;
+     margin-left:160px;
+}
+.filed{
+    margin:2px;
+    font-size:20px;
+   
+}
+.rev{
+    color:red;
+  font-size:18px;
+  font-family:Arial;
+}
+.rf{
+    color:red;
+     font-size:18px;
+      font-family:Arial;
+}
+.btnsubmit{
+    background-color:aliceblue;
+    padding:5px;
+    border-radius:40px;
+    margin:10px;
+    font-size:20px;
+}

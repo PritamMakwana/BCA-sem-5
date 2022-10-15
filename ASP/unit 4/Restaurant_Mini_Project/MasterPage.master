@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+      <link rel="stylesheet" href="css/styles.css" />
+      <link rel="stylesheet" href="bootstrapt/css/bootstrap.min.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server"> 
+        <div class="sidebar">
+        <div class="adminname">
+            <h1 class="mb-3 mt-2">Restaurant</h1>
+            <p>Management </p>
+            <div class="linewht"></div>
+        </div>
+         <div class="items">
+           <a class="itm"  href="~/Menu.aspx" runat="server">Menu</a>
+           <a class="itm"  href="~/Categories.aspx" runat="server">Categories</a>
+        </div>
+          <asp:Button runat="server" class="btnlogout" ID="btn_logout" Text="Logout" OnClick="btn_logout_Click" />
+    </div>
+    <div class="main">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+     <script src="bootstrapt/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿body{
+    margin: 0px;
+    padding: 0px;
+    background-color:beige;
+     font-family:'Bell MT';
+}
+
+.frombody {
+    position:absolute;
+    top: 5%;
+    left: 20%;
+    background-color:burlywood;
+    border: 5px solid burlywood;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-top:20px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.heading {
+    color:brown;
+    text-align:center;
+    font-size:30px;
+}
+.lbl{
+   color:saddlebrown ;
+   font-size:20px;
+  
+}
+.tb{
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    padding:5px;
+    color:brown ;
+    font-size:20px;
+    width:100%;
+}
+.dd{
+    margin:10px;
+}
+.btn{
+    text-align:center;
+    border-radius:10px;
+    padding:5px;
+    margin:5px;
+    background-color:sandybrown;
+    color:white ;
+    width:40%;
+    font-size:20px;
+    cursor:pointer;
+}

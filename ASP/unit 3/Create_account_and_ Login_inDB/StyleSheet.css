@@ -1,0 +1,73 @@
+﻿body{
+    margin: 0px;
+    padding: 0px;
+    background-color:beige;
+     font-family:'Bell MT';    
+}
+
+.frombody {
+    position: absolute;
+    top:10%;
+    left:33%;
+    width:30%;
+    background-color:burlywood;
+    border: 5px solid burlywood;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-top:20px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    display:flex;
+    align-content:center;
+    text-align:center;
+    flex-direction:column;
+  
+}
+
+.heading {
+    color:brown;
+    text-align:center;
+    font-size:30px;
+}
+.filed{
+    padding:1%;
+}
+.lbl{
+   color:saddlebrown ;
+   font-size:20px;
+   font-weight:900;
+  
+}
+.tb{
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    color:sandybrown ;
+    font-size:20px;
+    padding:5px;
+    margin-left:10px;
+   
+}
+.btn{
+    background-color:beige;
+    border-radius:10px;
+    padding:3px;
+    color:saddlebrown;
+    font-size:18px;
+    font-weight:900;
+    cursor:pointer;
+}
+.btnlink{
+    color:saddlebrown;
+    font-size:18px;
+    font-weight:900;
+    cursor:pointer;
+    background:none;
+    border:none;
+}
+.btnlink:hover{
+    color:beige;
+}
+.gdvstu{
+     
+}
